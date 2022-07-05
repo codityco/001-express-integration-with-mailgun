@@ -1,0 +1,52 @@
+<mjml>
+  <mj-body background-color="#ffffff" font-size="13px">
+    <mj-section
+      background-color="#343738"
+      vertical-align="top"
+      padding-bottom="0px"
+      padding-top="0"
+    >
+      <mj-column vertical-align="top" width="100%">
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-size="45px"
+          font-weight="bold"
+          font-family="open Sans Helvetica, Arial, sans-serif"
+          padding-left="25px"
+          padding-right="25px"
+          padding-bottom="30px"
+          padding-top="50px"
+          >Welcome Nick Devs</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#343738"
+      padding-bottom="20px"
+      padding-top="20px"
+    >
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-size="22px"
+          font-family="open Sans Helvetica, Arial, sans-serif"
+          padding-left="25px"
+          padding-right="25px"
+          >Welcome.</mj-text
+        >
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-size="15px"
+          font-family="open Sans Helvetica, Arial, sans-serif"
+          padding-left="25px"
+          padding-right="25px"
+          >This is a super special transactional email, baked just for
+          you!</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

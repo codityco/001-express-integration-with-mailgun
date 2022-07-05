@@ -1,0 +1,32 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && cp -r ./src/templates ./dist/",
+    "start": "node dist/",
+    "test-send": "curl -w '\n' --request POST 'http://127.0.0.1:3000/user'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-devs/001-express-integration-with-mailgun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nick-devs/001-express-integration-with-mailgun/issues"
+  },
+  "homepage": "https://github.com/nick-devs/001-express-integration-with-mailgun#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mjml": "^4.7.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mjml": "^4.12.0"
+  }
+}
